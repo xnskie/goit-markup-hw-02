@@ -1,13 +1,57 @@
 :root {
-    --main-title-color: #212121
-    --accent-color: #2196F3
-    --main-text-color: #757575
-    --main-button-color: #F5F4FA
+    --main-title-color: #212121;
+    --accent-color: #2196F3;
+    --main-text-color: #757575;
+    --main-button-color: #F5F4FA;
+    --black-logo-color: #000000;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
 }
-p {
-    color: var();
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+
+
+
+/* ---------------------------HEADER------------------------------- */
+
+.header {
+}
+.header-logo {
+}
+.logo-web {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+}
+.link {
+}
+.header-contacts {
+}
+.header-contact-item {
+}
+.header-contact {
 }
