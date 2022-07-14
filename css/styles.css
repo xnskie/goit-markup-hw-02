@@ -1,0 +1,13 @@
+:root {
+    --main-title-color: #212121
+    --accent-color: #2196F3
+    --main-text-color: #757575
+    --main-button-color: #F5F4FA
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    color: var();
+}
