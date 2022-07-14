@@ -8,13 +8,19 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--main-title-color);
 }
 .list {
     list-style: none;
 }
 .link {
     text-decoration: none;
+
 }
+.btn {
+    cursor: pointer;
+}
+
 .link:hover,
 .link:focus {
     color: var(--accent-color);
@@ -61,7 +67,7 @@ color: var(--accent-color);
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--main-title-color);
+color: inherit;
 }
 
 .header-contact {
@@ -113,10 +119,9 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--main-title-color);
+color: inherit;
 }
 .about-text {
-    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -132,7 +137,7 @@ font-size: 36px;
 line-height: 1.7;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--main-title-color);
+color: inherit;
 }
 
 /* ---------------------------TEAM------------------------------- */
@@ -142,10 +147,9 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--main-title-color);
+color: inherit;
 }
 .team-text {
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
@@ -162,14 +166,12 @@ color: var(--main-text-color);
 }
 
 .address-address {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .address-link {
-    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -211,10 +213,9 @@ border-radius: 4px;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: var(--main-title-color);
+color: inherit;
 }
 .projects-text {
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
